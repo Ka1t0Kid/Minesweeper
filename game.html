@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Minesweeper</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="minesweeper.js" defer></script>
+</head>
+
+
+<body>
+    <div id="game-container">
+        <div>
+            <div id="options-container">
+                <button id="restart">Restart</button>
+                <button id="return-menu">Main Menu</button>
+            </div>
+
+            <h3 id="message">🚩<span id="flags-number"></span></h3>
+
+            <div id="board-container" oncontextmenu="return false"></div>
+        </div>
+    </div>
+</body>
+
+</html>

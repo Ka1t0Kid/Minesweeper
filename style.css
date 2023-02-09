@@ -1,0 +1,283 @@
+body {
+    background-color: #212121;
+}
+
+
+
+
+
+#menu-container {
+    display: grid;
+    place-items: center;
+    height: 95vh;
+    width: 100%;
+}
+
+
+#title {
+    padding-left: 19px;
+    margin: 15px 0 40px 0;
+    border: 4px solid #f1f1f1;
+    box-shadow: inset  0 0 12px #f1f1f1, 0 0 12px #f1f1f1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 19px;
+    white-space: nowrap;
+    color: #f1f1f1;
+}
+
+
+#buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#buttons-container button {
+    display: block;
+    margin-block: 9px;
+    height: 129px;
+    width: 441px;
+    border: 9px solid #181818;
+    border-radius: 129px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: 0 0 9px #000000;
+    color: #f0f8ff;
+    transition: 400ms;
+}
+
+#buttons-container button:hover {
+    margin-block: -0.094rem;
+    height: 150px;
+    width: 462px;
+    border: 0;
+    border-radius: 150px;
+    font-size: 65px;
+}
+
+#buttons-container button:active {
+    margin-block: 1.594rem;
+    height: 96px;
+    width: 408px;
+    border-radius: 96px;
+    font-size: 45px;
+    transition: 100ms;
+}
+
+
+#easy {
+    background-color: #2233cd;
+}
+
+#easy:hover {
+    box-shadow: 0 0 60px #2233cd;
+}
+
+#easy:active {
+    background-color: #000082;
+    box-shadow: 0 0 75px #000082;
+}
+
+
+#medium {
+    background-color: #febe10;
+}
+
+#medium:hover {
+    box-shadow: 0 0 60px #febe10;
+}
+
+#medium:active {
+    background-color: #b37300;
+    box-shadow: 0 0 75px #b37300;
+}
+
+
+#hard {
+    background-color: #f41919;
+}
+
+#hard:hover {
+    box-shadow: 0 0 60px #f41919;
+}
+
+#hard:active {
+    background-color: #a90000;
+    box-shadow: 0 0 75px #a90000;
+}
+
+
+
+
+
+#game-container {
+    display: grid;
+    place-items: center;
+    height: 95vh;
+    width: 100%;
+}
+
+
+#options-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#options-container button {
+    margin: 30px 6px 30px 6px;
+    height: 72px;
+    width: 246px;
+    border: 2px solid #f1f1f1;
+    border-radius: 5px;
+    box-shadow: inset 0 0 9px #f1f1f1, 0 0 12px #f1f1f1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    text-shadow: 0 0 3px #f1f1f1;
+    background-color: transparent;
+    color: #f1f1f1;
+    transition: 400ms;
+}
+
+#options-container button:hover {
+    margin: 21px 6px 21px 6px;
+    height: 90px;
+    width: 19.219rem;
+    border: 0;
+    border-radius: 0.391rem;
+    font-size: 45px;
+    text-shadow: none;
+    color: #212121;
+}
+
+#options-container button:active {
+    transition: 100ms;
+}
+
+
+#restart:hover {
+    box-shadow: 0 0 30px #00bbdd;
+    background-color: #00bbdd;
+}
+
+#restart:active {
+    box-shadow: 0 0 60px #00bbdd;
+}
+
+
+#return-menu:hover {
+    box-shadow: 0 0 30px #f1f1f1;
+    background-color: #f1f1f1;
+}
+
+#return-menu:active {
+    box-shadow: 0 0 60px #f1f1f1;
+}
+
+
+#message {
+    margin-top: 6px;
+    margin-bottom: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 0 0 15px #000000;
+    letter-spacing: -1px;
+    color: #f1f1f1;
+}
+
+
+#board-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+}
+
+
+#board {
+    box-shadow: 0 0 53px #000000;
+}
+
+
+#board td {
+    height: 32px;
+    width: 32px;
+    border: 1px solid #0088aa;
+    border-radius: 2px;
+    background-color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 23px;
+    font-weight: lighter;
+    text-align: center;
+    box-shadow: 0 0 3px #000000;
+    transition: 400ms;
+}
+
+#board td:hover {
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 0 6px #f1f1f1;
+}
+
+#board td:active {
+    border: 1px solid #990099;
+    background-color: #990099;
+    box-shadow: 0 0 6px #990099;
+    transition: 100ms;
+}
+
+
+.num1 {
+    color: #dddddd;
+}
+
+
+.num2 {
+    color: #6688ff;
+}
+
+
+.num3 {
+    color: #dd4444;
+}
+
+
+.num4 {
+    color: #44dd44;
+}
+
+
+.num5 {
+    color: #ff8844;
+}
+
+
+.num6 {
+    color: #4444dd;
+}
+
+
+.num7 {
+    color: #dddd44;
+}
+
+
+.num8 {
+    color: #8844ff;
+}
+
+
+.visible {
+    pointer-events: none;
+}
+
+
+#mine {
+    display: none;
+}
